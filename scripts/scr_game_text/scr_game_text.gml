@@ -17,7 +17,7 @@ switch(_text_id) {
 	case "startgame":
 		scr_text("Are you sure?", "menu");
 			
-			scr_option("Yes ", "startgame - yes")
+			scr_option("Yes", "startgame - yes")
 			scr_option("No", "startgame - no")
 		break;
 	case "startgame - yes":
