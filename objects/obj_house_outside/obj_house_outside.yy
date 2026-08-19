@@ -8,8 +8,8 @@
   "name":"obj_house_outside",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Still",
+    "path":"folders/Objects/In-Game Elements/Still.yy",
   },
   "parentObjectId":{
     "name":"obj_wall",

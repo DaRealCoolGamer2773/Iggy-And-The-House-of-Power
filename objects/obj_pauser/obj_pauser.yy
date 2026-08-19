@@ -6,8 +6,8 @@
   "name":"obj_pauser",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Other",
+    "path":"folders/Objects/In-Game Elements/Other.yy",
   },
   "parentObjectId":null,
   "persistent":false,

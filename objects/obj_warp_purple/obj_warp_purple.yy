@@ -11,8 +11,8 @@
   "name":"obj_warp_purple",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Invisible",
+    "path":"folders/Objects/Important/Invisible.yy",
   },
   "parentObjectId":{
     "name":"obj_pauser",
