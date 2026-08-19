@@ -62,7 +62,7 @@ if xspd == 0 && yspd == 0
 	{
 	image_index = 0;
 	}
-image_speed = move_spd;
+image_speed = move_spd * (1+run_key);
 	
 	
 //depth
