@@ -12,7 +12,7 @@ option[0, 0] = "Start Game";
 	option[1, 1] = "Yes";
 	option[1, 2] = "No";
 option[0, 1] = "Settings";
-	option[2, 1] = "Controlls";
+	option[2, 2] = "Controlls";
 		option[3, 0] = "Main Menu";
 			option[4, 0] = "Arrow Keys/WASD = Navigate";
 			option[4, 1] = "Z/E/Space = Accept";
@@ -32,7 +32,7 @@ option[0, 1] = "Settings";
 			option[7, 0] = "Z/E/SPACE = Next Page/Skip Page";
 			option[7, 1] = "Back";
 		option[3, 4] = "Back";
-	option[2, 2] = "Back";
+	option[2, 3] = "Back";
 option[0, 2] = "Quit Game";
 
 op_length = 0;

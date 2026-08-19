@@ -48,7 +48,7 @@ switch(_text_id) {
 		break;
 	case "pause_screen - yes":
 		scr_text("Quitting...")
-		game_restart();
+		room_goto(rm_title_screen);
 	case "pause_screen - no":
 		scr_text("Okay, have fun!")
 		break;
@@ -106,73 +106,105 @@ switch(_text_id) {
 		scr_text("What a shame...", "iggy-pissed", -1)
 		break
 		
-	case "tvA1":
-		scr_text("Why are you clicking my TV?", "iggy-confused", -1);
-		scr_text("No.", "iggy-pissed", -1);
-		scr_text("You can't use it.", "iggy-pissed", -1);
-		global.tvdialogueA = "2";
-		break;
-	case "tvA2":
-		scr_text("...", "iggy-pissed", -1);
-		global.tvdialogueA = "3";
-		break;
-	case "tvA3":
-		scr_text("Stop.", "iggy-pissed", -1);
-		scr_text("You're going to break it.", "iggy-pissed", -1);
-		global.tvdialogueA = "0";
-		break;
-	case "tvA0":
-		scr_text("*...");
-		break;
+	case "tv1":
+		if global.tvdialogueA == 1
+			{
+				scr_text("Why are you clicking my TV?", "iggy-confused", -1);
+				scr_text("No.", "iggy-pissed", -1);
+				scr_text("You can't use it.", "iggy-pissed", -1);
+				global.tvdialogueA = "2";
+				break;
+			}
+		else{
+		if global.tvdialogueA == 2
+			{
+				scr_text("...", "iggy-pissed", -1);
+				global.tvdialogueA = "3";
+				break;
+			}
+		else{
+		if global.tvdialogueA == 3
+			{
+				scr_text("Stop.", "iggy-pissed", -1);
+				scr_text("You're going to break it.", "iggy-pissed", -1);
+				global.tvdialogueA = "0";
+				break;
+			}
+		else{
+				scr_text("*...");
+				break;
+			}
+			}
+			}
 		
 	case "rug1":
 		scr_text("What?", "iggy-confused", -1);
 		scr_text("There's nothing special about it.", "iggy-pissed", -1);
 		break;
 		
-	case "myhouseA1":
-		scr_text("You just left...", "iggy-pissed", -1);
-		scr_text("Why go back?", "iggy-confused", -1);
-		global.myhousedialogueA = "0";
-		break;
-	case "myhouseA0":
-		scr_text("*...");
-		break;
+	case "myhouse1":
+		if global.myhousedialogueA == 1
+			{
+				scr_text("You just left...", "iggy-pissed", -1);
+				scr_text("Why go back?", "iggy-confused", -1);
+				global.myhousedialogueA = "0";
+				break;
+			}
+		else
+			{
+				scr_text("*...");
+				break;
+			}
 		
-	case "newhouseA1":
-		scr_text("Wait...", "iggy", -1);
-		scr_text("This house wasn't here before.", "iggy-confused", -1);
-		scr_text("...", "iggy-confused", -1);
-		scr_text("...", "iggy-pissed", -1);
-		scr_text("I'm gonna rob it!", "iggy-happy", -1);
-		global.newhousedialogueA = "0";
-		break;
-	case "newhouseA0":
-		scr_text("I'm gonna rob it!", "iggy-happy", -1);
-		break;
+	case "newhouse1":
+		if global.newhousedialogueA == 1
+			{
+				scr_text("Wait...", "iggy", -1);
+				scr_text("This house wasn't here before.", "iggy-confused", -1);
+				scr_text("...", "iggy-confused", -1);
+				scr_text("...", "iggy-pissed", -1);
+				scr_text("I'm gonna rob it!", "iggy-happy", -1);
+				global.newhousedialogueA = "0";
+				break;
+			}
+		else
+			{
+				scr_text("I'm gonna rob it!", "iggy-happy", -1);
+				break;
+			}
 		
 	case "howdyfalls1":
 		scr_text("The town sucks.", "iggy-pissed", -1);
 		scr_text("I'm not going down there.", "iggy-pissed", -1);
 		break;
 		
-	case "floweyA1":
-		scr_text("I'm Flowey! Flowey the flower!", "flowey");
-		scr_text("Where am I?", "flowey-confused");
-		global.floweydialogueA = "0";
-		break;
-	case "floweyA0":
-		scr_text("...", "flowey-confused");
-		break;
+	case "flowey1":
+		if global.floweydialogueA == 1
+			{
+				scr_text("I'm Flowey! Flowey the flower!", "flowey");
+				scr_text("Where am I?", "flowey-confused");
+				global.floweydialogueA = "0";
+				break;
+			}
+		else
+			{
+				scr_text("...", "flowey-confused");
+				break;
+			}
 		
-	case "iggyconfusedA1":
-		scr_text("This looks like my house.", "iggy-confused", -1);
-		scr_text("Purple sucks.", "iggy-pissed", -1);
-		global.iggyconfuseddialogueA = "0";
-		break;
-	case "iggyconfusedA0":
-		scr_text("*...");
-		break;
+	case "iggyconfused1":
+		if global.iggyconfuseddialogueA == 1
+			{
+				scr_text("This looks like my house.", "iggy-confused", -1);
+				scr_text("Purple sucks.", "iggy-pissed", -1);
+				global.iggyconfuseddialogueA = "0";
+				break;
+			}
+		else
+			{
+				scr_text("*...");
+				break;
+			}
 		
 	case "strangehallway1":
 		scr_text("That wasn't there before.", "iggy-confused", -1);
@@ -182,15 +214,20 @@ switch(_text_id) {
 		scr_text("I shouldn't go back now.", "iggy", -1);
 		break;
 		
-	case "tvB1":
-		scr_text("*T  E  L  E  V  I  S  I  O  N*");
-		scr_text("*Click.");
-		scr_text("It doesn't work.", "iggy-pissed", -1);
-		global.tvdialogueB = "0";
-		break;
-	case "tvB0":
-		scr_text("*...");
-		break;
+	case "tv2":
+		if global.tvdialogueB == 1
+			{
+				scr_text("*T  E  L  E  V  I  S  I  O  N*");
+				scr_text("*Click.");
+				scr_text("It doesn't work.", "iggy-pissed", -1);
+				global.tvdialogueB = "0";
+				break;
+			}
+		else
+			{
+				scr_text("*...");
+				break;
+			}
 		
 	case "rug2":
 		scr_text("I always wanted a purple carpet.", "iggy-happy", -1);

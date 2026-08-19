@@ -8,6 +8,15 @@ else
 		option[2, 0] = "Fullscreen: OFF";
 	}
 
+if global.vsync == true
+	{
+		option[2, 1] = "V-Sync: ON";
+	}
+else
+	{
+		option[2, 1] = "V-Sync: OFF";
+	}
+
 //get inputs
 up_key = keyboard_check_pressed(vk_up) || keyboard_check_pressed( ord("W") );
 down_key = keyboard_check_pressed(vk_down) || keyboard_check_pressed( ord("S") );
@@ -61,10 +70,13 @@ if accept_key {
 				//fullscreen
 				case 0: global.fullscreen_checked = !global.fullscreen_checked;
 					window_set_fullscreen(global.fullscreen_checked); break;
+				//v-sync
+				case 1: global.vsync = !global.vsync;
+					display_reset(0, global.vsync); break;
 				//controlls
-				case 1: menu_level = 3; break;	
+				case 2: menu_level = 3; break;	
 				//back
-				case 2: menu_level = 0; break;
+				case 3: menu_level = 0; break;
 				}
 			break;	
 			
