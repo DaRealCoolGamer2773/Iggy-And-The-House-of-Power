@@ -78,8 +78,8 @@
   ],
   "name":"rm_weird",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Purple Area 1",
+    "path":"folders/Rooms/Purple Area 1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

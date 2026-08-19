@@ -88,8 +88,8 @@
   ],
   "name":"rm_basic_outside",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Beginning",
+    "path":"folders/Rooms/Beginning.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

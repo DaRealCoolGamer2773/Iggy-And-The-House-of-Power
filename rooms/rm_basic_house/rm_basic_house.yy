@@ -64,8 +64,8 @@
   ],
   "name":"rm_basic_house",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Beginning",
+    "path":"folders/Rooms/Beginning.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

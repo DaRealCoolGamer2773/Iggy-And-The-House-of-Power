@@ -7,8 +7,7 @@ run_key = keyboard_check(vk_shift) || keyboard_check(ord("X"));
 
 
 //get xspd and yspd
-if xspd == 0 && yspd == 0 {}
-else
+if !(xspd == 0 && yspd == 0)
 	{
 		move_spd = 1 + run_key;
 	}
