@@ -7,7 +7,7 @@ op_space = 16;
 pos = 0;
 
 //pause menu
-option[0, 0] = "Jasmine a gay mf";
+option[0, 0] = "Start Game";
 	option[1, 0] = "Are you sure?";
 	option[1, 1] = "Yes";
 	option[1, 2] = "No";
