@@ -9,8 +9,8 @@
   "name":"obj_warp_block_purple",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Invisible",
+    "path":"folders/Objects/Important/Invisible.yy",
   },
   "parentObjectId":null,
   "persistent":false,
