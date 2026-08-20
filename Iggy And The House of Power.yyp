@@ -49,6 +49,7 @@
   "name":"Iggy And The House of Power",
   "resources":[
     {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},},
+    {"id":{"name":"obj_dialogue_variables","path":"objects/obj_dialogue_variables/obj_dialogue_variables.yy",},},
     {"id":{"name":"obj_dresser_big","path":"objects/obj_dresser_big/obj_dresser_big.yy",},},
     {"id":{"name":"obj_dresser","path":"objects/obj_dresser/obj_dresser.yy",},},
     {"id":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},},
@@ -57,7 +58,6 @@
     {"id":{"name":"obj_parallax_background","path":"objects/obj_parallax_background/obj_parallax_background.yy",},},
     {"id":{"name":"obj_pauser","path":"objects/obj_pauser/obj_pauser.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"obj_reset_dialogue","path":"objects/obj_reset_dialogue/obj_reset_dialogue.yy",},},
     {"id":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},},
     {"id":{"name":"obj_sign_howdyfalls","path":"objects/obj_sign_howdyfalls/obj_sign_howdyfalls.yy",},},
     {"id":{"name":"obj_speakblock","path":"objects/obj_speakblock/obj_speakblock.yy",},},

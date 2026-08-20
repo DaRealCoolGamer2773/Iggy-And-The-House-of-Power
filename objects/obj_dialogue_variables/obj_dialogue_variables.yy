@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_reset_dialogue",
+  "%Name":"obj_dialogue_variables",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_reset_dialogue",
+  "name":"obj_dialogue_variables",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main Menu",
-    "path":"folders/Main Menu.yy",
+    "name":"Dialogue",
+    "path":"folders/Dialogue.yy",
   },
   "parentObjectId":null,
   "persistent":false,

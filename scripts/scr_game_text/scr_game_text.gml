@@ -1,11 +1,3 @@
-/// Dialogue Variables
-global.tvdialogueA = "1";
-global.myhousedialogueA = "1";
-global.newhousedialogueA = "1";
-global.floweydialogueA = "1";
-global.iggyconfuseddialogueA = "1";
-global.tvdialogueB = "1";
-
 /// @param text_id
 function scr_game_text(_text_id){
 
@@ -234,8 +226,18 @@ switch(_text_id) {
 			}
 		
 	case "rug2":
-		scr_text("I always wanted a purple carpet.", "iggy-happy", -1);
-		break;
+		if global.rug2dialogue == "1"
+			{
+				scr_text("Stop clicking the most random shit", "iggy-pissed", -1);
+				scr_text("It won't get you an achievement", "iggy-pissed", -1);
+				global.rug2dialogue = "0";
+				break;
+			}
+		else
+			{
+				scr_text("*Just don't.");
+				break;
+			}
 	
 	case "flowery1":
 		audio_play_sound(snd_flowery_heyguys, 100, false);
