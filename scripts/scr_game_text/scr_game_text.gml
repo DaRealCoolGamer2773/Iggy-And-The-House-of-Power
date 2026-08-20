@@ -48,6 +48,10 @@ switch(_text_id) {
 		break;
 	case "pause_screen - yes":
 		scr_text("Quitting...")
+		if instance_exists(obj_player)
+			{
+				instance_destroy(obj_player);
+			}
 		room_goto(rm_title_screen);
 	case "pause_screen - no":
 		scr_text("Okay, have fun!")
