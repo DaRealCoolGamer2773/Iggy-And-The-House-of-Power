@@ -82,9 +82,9 @@
     {"id":{"name":"rm_purple_outside","path":"rooms/rm_purple_outside/rm_purple_outside.yy",},},
     {"id":{"name":"rm_purple_town","path":"rooms/rm_purple_town/rm_purple_town.yy",},},
     {"id":{"name":"rm_test_dialogue_system","path":"rooms/rm_test_dialogue_system/rm_test_dialogue_system.yy",},},
-    {"id":{"name":"rm_title_screen_first_boot","path":"rooms/rm_title_screen_first_boot/rm_title_screen_first_boot.yy",},},
     {"id":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"id":{"name":"rm_weird","path":"rooms/rm_weird/rm_weird.yy",},},
+    {"id":{"name":"scr_boot_variables","path":"scripts/scr_boot_variables/scr_boot_variables.yy",},},
     {"id":{"name":"scr_game_text","path":"scripts/scr_game_text/scr_game_text.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"scr_textbox_functions","path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},},
@@ -147,7 +147,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_title_screen_first_boot","path":"rooms/rm_title_screen_first_boot/rm_title_screen_first_boot.yy",},},
     {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"roomId":{"name":"rm_basic_house","path":"rooms/rm_basic_house/rm_basic_house.yy",},},
     {"roomId":{"name":"rm_basic_house_1","path":"rooms/rm_basic_house_1/rm_basic_house_1.yy",},},
