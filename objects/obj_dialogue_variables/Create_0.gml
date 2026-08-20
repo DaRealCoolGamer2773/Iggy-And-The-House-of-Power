@@ -5,3 +5,4 @@ global.floweydialogueA = "1";
 global.iggyconfuseddialogueA = "1";
 global.tvdialogueB = "1";
 global.rug2dialogue = "1";
+global.flowery1dialogue = 1;

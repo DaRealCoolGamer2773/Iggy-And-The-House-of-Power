@@ -240,9 +240,19 @@ switch(_text_id) {
 			}
 	
 	case "flowery1":
-		audio_play_sound(snd_flowery_heyguys, 100, false);
-		scr_text("Hey! The next room is down there!", "flowery");
-		break;
+		if global.flowery1dialogue == 1
+			{
+				audio_play_sound(snd_flowery_heyguys, 100, false);
+				scr_text("Hey! The next room is down there!", "flowery");
+				global.flowery1dialogue = 0;
+				break;
+			}
+		else
+			{
+				audio_play_sound(snd_flowery_nonono, 100, false);
+				scr_text("Don't keep the game waiting.", "flowery");
+				break;
+			}
 		
 
 

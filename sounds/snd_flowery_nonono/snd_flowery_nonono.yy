@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_flowery_heyguys",
+  "%Name":"snd_flowery_nonono",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.78133786,
+  "duration":1.0840136,
   "exportDir":"",
-  "name":"snd_flowery_heyguys",
+  "name":"snd_flowery_nonono",
   "parent":{
     "name":"Flowery",
     "path":"folders/Dialogue/Voice Clips/Flowery.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_flowery_heyguys.wav",
+  "soundFile":"snd_flowery_nonono.wav",
   "volume":1.0,
 }
