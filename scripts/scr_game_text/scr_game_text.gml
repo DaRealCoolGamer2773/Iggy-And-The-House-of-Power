@@ -250,7 +250,7 @@ switch(_text_id) {
 		else
 			{
 				audio_play_sound(snd_flowery_nonono, 100, false);
-				scr_text("Don't keep the game waiting.", "flowery");
+				scr_text("Don't keep the game waiting.", "flowery-worried");
 				break;
 			}
 		

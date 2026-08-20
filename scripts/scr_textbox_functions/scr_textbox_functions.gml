@@ -70,6 +70,10 @@ function scr_text(_text){
 				speaker_sprite[page_number] = spr_flowery_spk;
 				txtb_spr[page_number] = spr_textbox_dr;
 				break;
+					case "flowery-worried":
+				speaker_sprite[page_number] = spr_flowery_spk_worried;
+				txtb_spr[page_number] = spr_textbox_dr;
+				break;
 			
 			}
 		}
