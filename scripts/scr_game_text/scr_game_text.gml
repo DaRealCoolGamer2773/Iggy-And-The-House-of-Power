@@ -228,8 +228,8 @@ switch(_text_id) {
 	case "rug2":
 		if global.rug2dialogue == "1"
 			{
-				scr_text("Stop clicking the most random shit", "iggy-pissed", -1);
-				scr_text("It won't get you an achievement", "iggy-pissed", -1);
+				scr_text("Stop clicking the most random shit.", "iggy-pissed", -1);
+				scr_text("It won't get you an achievement.", "iggy-pissed", -1);
 				global.rug2dialogue = "0";
 				break;
 			}
