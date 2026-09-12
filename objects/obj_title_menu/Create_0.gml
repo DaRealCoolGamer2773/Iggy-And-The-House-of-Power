@@ -1,3 +1,6 @@
+//title music
+audio_play_sound(snd_title_music, 100, true);
+
 width = 64;
 height =104;
 

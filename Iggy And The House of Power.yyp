@@ -12,8 +12,8 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Dialogue","folderPath":"folders/Dialogue.yy","name":"Dialogue","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Portraits","folderPath":"folders/Dialogue/Portraits.yy","name":"Portraits","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Flowey","folderPath":"folders/Dialogue/Portraits/Flowey.yy","name":"Flowey","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Flowery","folderPath":"folders/Dialogue/Portraits/Flowery.yy","name":"Flowery","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Flowey","folderPath":"folders/Dialogue/Portraits/Flowey.yy","name":"Flowey","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Iggy","folderPath":"folders/Dialogue/Portraits/Iggy.yy","name":"Iggy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Voice Clips","folderPath":"folders/Dialogue/Voice Clips.yy","name":"Voice Clips","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Flowery","folderPath":"folders/Dialogue/Voice Clips/Flowery.yy","name":"Flowery","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -51,6 +51,7 @@
   "name":"Iggy And The House of Power",
   "resources":[
     {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},},
+    {"id":{"name":"obj_bg_music","path":"objects/obj_bg_music/obj_bg_music.yy",},},
     {"id":{"name":"obj_dialogue_variables","path":"objects/obj_dialogue_variables/obj_dialogue_variables.yy",},},
     {"id":{"name":"obj_dresser_big","path":"objects/obj_dresser_big/obj_dresser_big.yy",},},
     {"id":{"name":"obj_dresser","path":"objects/obj_dresser/obj_dresser.yy",},},
@@ -63,6 +64,7 @@
     {"id":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},},
     {"id":{"name":"obj_sign_howdyfalls","path":"objects/obj_sign_howdyfalls/obj_sign_howdyfalls.yy",},},
     {"id":{"name":"obj_speakblock","path":"objects/obj_speakblock/obj_speakblock.yy",},},
+    {"id":{"name":"obj_stop_music","path":"objects/obj_stop_music/obj_stop_music.yy",},},
     {"id":{"name":"obj_text_dev_log","path":"objects/obj_text_dev_log/obj_text_dev_log.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},},
@@ -92,6 +94,7 @@
     {"id":{"name":"scr_textbox_functions","path":"scripts/scr_textbox_functions/scr_textbox_functions.yy",},},
     {"id":{"name":"snd_flowery_heyguys","path":"sounds/snd_flowery_heyguys/snd_flowery_heyguys.yy",},},
     {"id":{"name":"snd_flowery_nonono","path":"sounds/snd_flowery_nonono/snd_flowery_nonono.yy",},},
+    {"id":{"name":"snd_title_music","path":"sounds/snd_title_music/snd_title_music.yy",},},
     {"id":{"name":"bg_hills_day_normal","path":"sprites/bg_hills_day_normal/bg_hills_day_normal.yy",},},
     {"id":{"name":"spr_basic_house_tiles","path":"sprites/spr_basic_house_tiles/spr_basic_house_tiles.yy",},},
     {"id":{"name":"spr_bed","path":"sprites/spr_bed/spr_bed.yy",},},
