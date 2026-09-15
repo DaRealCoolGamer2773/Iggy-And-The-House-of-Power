@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bg_music",
+  "%Name":"obj_stop_and_set_music",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bg_music",
+  "name":"obj_stop_and_set_music",
   "overriddenProperties":[],
   "parent":{
     "name":"Invisible",

@@ -31,7 +31,6 @@
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_bg_music","order":6,"path":"objects/obj_bg_music/obj_bg_music.yy",},
     {"name":"obj_dialogue_variables","order":16,"path":"objects/obj_dialogue_variables/obj_dialogue_variables.yy",},
     {"name":"obj_dresser_big","order":2,"path":"objects/obj_dresser_big/obj_dresser_big.yy",},
     {"name":"obj_dresser","order":1,"path":"objects/obj_dresser/obj_dresser.yy",},
@@ -41,7 +40,8 @@
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_sign_howdyfalls","order":4,"path":"objects/obj_sign_howdyfalls/obj_sign_howdyfalls.yy",},
     {"name":"obj_speakblock","order":4,"path":"objects/obj_speakblock/obj_speakblock.yy",},
-    {"name":"obj_stop_music","order":5,"path":"objects/obj_stop_music/obj_stop_music.yy",},
+    {"name":"obj_start_music","order":6,"path":"objects/obj_start_music/obj_start_music.yy",},
+    {"name":"obj_stop_and_set_music","order":5,"path":"objects/obj_stop_and_set_music/obj_stop_and_set_music.yy",},
     {"name":"obj_text_dev_log","order":7,"path":"objects/obj_text_dev_log/obj_text_dev_log.yy",},
     {"name":"obj_textbox","order":2,"path":"objects/obj_textbox/obj_textbox.yy",},
     {"name":"obj_title_menu","order":2,"path":"objects/obj_title_menu/obj_title_menu.yy",},

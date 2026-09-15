@@ -51,7 +51,6 @@
   "name":"Iggy And The House of Power",
   "resources":[
     {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},},
-    {"id":{"name":"obj_bg_music","path":"objects/obj_bg_music/obj_bg_music.yy",},},
     {"id":{"name":"obj_dialogue_variables","path":"objects/obj_dialogue_variables/obj_dialogue_variables.yy",},},
     {"id":{"name":"obj_dresser_big","path":"objects/obj_dresser_big/obj_dresser_big.yy",},},
     {"id":{"name":"obj_dresser","path":"objects/obj_dresser/obj_dresser.yy",},},
@@ -64,7 +63,8 @@
     {"id":{"name":"obj_settings","path":"objects/obj_settings/obj_settings.yy",},},
     {"id":{"name":"obj_sign_howdyfalls","path":"objects/obj_sign_howdyfalls/obj_sign_howdyfalls.yy",},},
     {"id":{"name":"obj_speakblock","path":"objects/obj_speakblock/obj_speakblock.yy",},},
-    {"id":{"name":"obj_stop_music","path":"objects/obj_stop_music/obj_stop_music.yy",},},
+    {"id":{"name":"obj_start_music","path":"objects/obj_start_music/obj_start_music.yy",},},
+    {"id":{"name":"obj_stop_and_set_music","path":"objects/obj_stop_and_set_music/obj_stop_and_set_music.yy",},},
     {"id":{"name":"obj_text_dev_log","path":"objects/obj_text_dev_log/obj_text_dev_log.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},},
