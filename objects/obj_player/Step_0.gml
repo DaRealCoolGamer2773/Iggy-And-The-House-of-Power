@@ -22,6 +22,11 @@ if instance_exists(obj_textbox)
 	xspd = 0;
 	yspd = 0
 	}
+if global.cutscene_playing == true
+	{
+	xspd = 0;
+	yspd = 0
+	}
 
 
 if(xspd != 0 xor yspd != 0)//if you are moving in a cardinal direction...

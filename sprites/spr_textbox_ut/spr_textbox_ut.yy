@@ -51,8 +51,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Dialogue",
-    "path":"folders/Dialogue.yy",
+    "name":"Textboxes",
+    "path":"folders/Dialogue/Textboxes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
